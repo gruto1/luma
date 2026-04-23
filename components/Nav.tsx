@@ -3,11 +3,16 @@ import { usePathname } from "next/navigation";
 import { navLinks } from '@/constants/navLinks'
 import Link from 'next/link'
 
-const Nav = () => {
+type NavProps = {
+    className?: string;
+    onClick?: () => void;
+}
+
+const Nav = ({className, onClick}:NavProps) => {
     const pathname = usePathname();
     return (
-        <nav>
-            <ul className='ml-6 items-center gap-7 flex'>
+        <nav className={className} onClick={onClick}>
+            <ul className='md:ml-6 flex-col md:flex-row items-start md:items-center gap-7 flex'>
                 {
                     navLinks.map((link) => {
                         const isActive = pathname === link.href;
