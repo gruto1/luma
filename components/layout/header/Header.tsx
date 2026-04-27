@@ -1,6 +1,6 @@
 'use client';
 import { Search, ShoppingBag, User, Menu, Heart, X } from "lucide-react";
-import Container from '../Container'
+import Container from '../../common/Container'
 import Link from 'next/link'
 import Dropdown from "@/components/ui/Dropdown";
 import Nav from "@/components/Nav";
