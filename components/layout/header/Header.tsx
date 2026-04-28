@@ -3,7 +3,7 @@ import { Search, ShoppingBag, User, Menu, Heart, X } from "lucide-react";
 import Container from '../../common/Container'
 import Link from 'next/link'
 import Dropdown from "@/components/ui/Dropdown";
-import Nav from "@/components/Nav";
+import Nav from "@/components/layout/header/Nav";
 import { useState } from "react";
 // import Button from "@/components/ui/button";
 
@@ -29,7 +29,7 @@ const Header = () => {
 
 
           <Nav onClick={() => setOpen(!open)}
-            className={`absolute md:static top-full left-0 right-0 p-5 md:p-0 duration-300 md:translate-x-0 ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform md:translate-y-0`}
+            className={`absolute md:static top-full left-0 right-0 p-5 md:p-0 duration-300 md:translate-x-0 bg-background/95 backdrop-blur-xl ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform md:translate-y-0`}
           />
 
           <div className="relative ml-auto md:flex-1 max-w-md md:block">

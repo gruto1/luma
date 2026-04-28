@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 type NavProps = {
     className?: string;
-    onClick?: () => void;
+    onClick: () => void;
 }
 
 const Nav = ({className, onClick}:NavProps) => {

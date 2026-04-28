@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <footer className="mt-24 border-t border-border bg-surface pt-10 pb-6">
       <Container>
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
 
           {/* Left section */}
           <div>
