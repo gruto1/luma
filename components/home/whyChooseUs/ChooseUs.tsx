@@ -12,9 +12,9 @@ const chooseUsData = [
 
 const ChooseUs = () => {
     return (
-        <section className="py-10 bg-surface">
+        <section className="my-10 bg-surface">
             <Container>
-                <div className="rounded-3xl  ">
+                <div className=" py-10">
                     <div className="grid gap-8 grid-cols-2 md:grid-cols-4">
                         {chooseUsData.map(({icon:Icon, title, desc}, idx) => (
                             <div key={idx} className="flex flex-col items-center text-center gap-4">

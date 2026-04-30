@@ -29,7 +29,7 @@ const Header = () => {
 
 
           <Nav onClick={() => setOpen(!open)}
-            className={`absolute md:static top-full left-0 right-0 p-5 md:p-0 duration-300 md:translate-x-0 bg-background/95 backdrop-blur-xl ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform md:translate-y-0`}
+            className={`absolute md:static top-full left-0 right-0 p-5 md:p-0 duration-300 md:translate-x-0 bg-background/95 md:bg-transparent backdrop-blur-xl md:backdrop-blur-none ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform md:translate-y-0`}
           />
 
           <div className="relative ml-auto md:flex-1 max-w-md md:block">

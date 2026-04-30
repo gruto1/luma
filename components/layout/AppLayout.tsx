@@ -8,7 +8,7 @@ const AppLayout = ({children}: ContainerProps) => {
   return (
     <>
     <Header/>
-    <main className='min-h-screen'>
+    <main className='min-h-screen bg-[#fffafc]'>
         {children}
     </main>
     <Footer/>
