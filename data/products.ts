@@ -9,7 +9,7 @@ export const products = [
     oldPrice: 999,
     category: "men",
     brand: "Gruto",
-    image: "/productImage/men/men-1.jpg",
+    image: "/productImage/men/men.jpg",
     images: [
       "/productImage/men/men-1.jpg",
       "/productImage/men/men-2.jpg",
@@ -37,7 +37,7 @@ export const products = [
     oldPrice: 1899,
     category: "men",
     brand: "Gruto",
-    image: "/productImage/men/men-2.jpg",
+    image: "/productImage/men/men.jpg",
     images: [
       "/productImage/men/men-2.jpg",
       "/productImage/men/men-3.jpg",
@@ -65,9 +65,9 @@ export const products = [
     oldPrice: 1599,
     category: "men",
     brand: "Gruto",
-    image: "/productImage/men/men-3.jpg",
+    image: "/productImage/men/men.jpg",
     images: [
-      "/productImage/men/men-3.jpg",
+      "/productImage/men/men.jpg",
       "/productImage/men/men-1.jpg",
       "/productImage/men/men-2.jpg",
     ],
@@ -93,7 +93,7 @@ export const products = [
     oldPrice: 2499,
     category: "women",
     brand: "Gruto",
-    image: "/productImage/women/women-1.jpg",
+    image: "/productImage/women/women.jpg",
     images: [
       "/productImage/women/women-1.jpg",
       "/productImage/women/women-2.jpg",
@@ -121,7 +121,7 @@ export const products = [
     oldPrice: 1099,
     category: "women",
     brand: "Gruto",
-    image: "/productImage/women/women-2.jpg",
+    image: "/productImage/women/women.jpg",
     images: [
       "/productImage/women/women-2.jpg",
       "/productImage/women/women-3.jpg",
@@ -149,7 +149,7 @@ export const products = [
     oldPrice: 2199,
     category: "women",
     brand: "Gruto",
-    image: "/productImage/women/women-3.jpg",
+    image: "/productImage/women/women.jpg",
     images: [
       "/productImage/women/women-3.jpg",
       "/productImage/women/women-1.jpg",
@@ -177,7 +177,7 @@ export const products = [
     oldPrice: 2999,
     category: "shoes",
     brand: "Gruto",
-    image: "/productImage/shoes/shoes-1.jpg",
+    image: "/productImage/shoes/shoes.jpg",
     images: [
       "/productImage/shoes/shoes-1.jpg",
       "/productImage/shoes/shoes-2.jpg",
@@ -205,7 +205,7 @@ export const products = [
     oldPrice: 1899,
     category: "shoes",
     brand: "Gruto",
-    image: "/productImage/shoes/shoes-2.jpg",
+    image: "/productImage/shoes/shoes.jpg",
     images: [
       "/productImage/shoes/shoes-2.jpg",
       "/productImage/shoes/shoes-3.jpg",
@@ -233,7 +233,7 @@ export const products = [
     oldPrice: 3299,
     category: "shoes",
     brand: "Gruto",
-    image: "/productImage/shoes/shoes-3.jpg",
+    image: "/productImage/shoes/shoes.jpg",
     images: [
       "/productImage/shoes/shoes-3.jpg",
       "/productImage/shoes/shoes-1.jpg",
@@ -261,7 +261,7 @@ export const products = [
     oldPrice: 3999,
     category: "accessories",
     brand: "Gruto",
-    image: "/productImage/accessories/accessories-1.jpg",
+    image: "/productImage/accessories/accessories.jpg",
     images: [
       "/productImage/accessories/accessories-1.jpg",
       "/productImage/accessories/accessories-2.jpg",
@@ -290,7 +290,7 @@ export const products = [
     oldPrice: 1299,
     category: "accessories",
     brand: "Gruto",
-    image: "/productImage/accessories/accessories-2.jpg",
+    image: "/productImage/accessories/accessories.jpg",
     images: [
       "/productImage/accessories/accessories-2.jpg",
       "/productImage/accessories/accessories-3.jpg",
@@ -318,7 +318,7 @@ export const products = [
     oldPrice: 999,
     category: "accessories",
     brand: "Gruto",
-    image: "/productImage/accessories/accessories-3.jpg",
+    image: "/productImage/accessories/accessories.jpg",
     images: [
       "/productImage/accessories/accessories-3.jpg",
       "/productImage/accessories/accessories-1.jpg",
@@ -346,7 +346,7 @@ export const products = [
     oldPrice: 1499,
     category: "men",
     brand: "Gruto",
-    image: "/productImage/men/men-1.jpg",
+    image: "/productImage/men/men.jpg",
     images: [
       "/productImage/men/men-1.jpg",
       "/productImage/men/men-2.jpg",
@@ -374,7 +374,7 @@ export const products = [
     oldPrice: 1699,
     category: "women",
     brand: "Gruto",
-    image: "/productImage/women/women-1.jpg",
+    image: "/productImage/women/women.jpg",
     images: [
       "/productImage/women/women-1.jpg",
       "/productImage/women/women-2.jpg",
@@ -402,7 +402,7 @@ export const products = [
     oldPrice: 1299,
     category: "men",
     brand: "Gruto",
-    image: "/productImage/men/men-2.jpg",
+    image: "/productImage/men/men.jpg",
     images: [
       "/productImage/men/men-2.jpg",
       "/productImage/men/men-3.jpg",
@@ -430,7 +430,7 @@ export const products = [
     oldPrice: 2299,
     category: "shoes",
     brand: "Gruto",
-    image: "/productImage/shoes/shoes-1.jpg",
+    image: "/productImage/shoes/shoes.jpg",
     images: [
       "/productImage/shoes/shoes-1.jpg",
       "/productImage/shoes/shoes-2.jpg",
@@ -458,7 +458,7 @@ export const products = [
     oldPrice: 2699,
     category: "women",
     brand: "Gruto",
-    image: "/productImage/accessories/accessories-1.jpg",
+    image: "/productImage/accessories/accessories.jpg",
     images: [
       "/productImage/accessories/accessories-1.jpg",
       "/productImage/accessories/accessories-2.jpg",
@@ -486,7 +486,7 @@ export const products = [
     oldPrice: 899,
     category: "accessories",
     brand: "Gruto",
-    image: "/productImage/accessories/accessories-2.jpg",
+    image: "/productImage/accessories/accessories.jpg",
     images: [
       "/productImage/accessories/accessories-2.jpg",
       "/productImage/accessories/accessories-3.jpg",
@@ -514,7 +514,7 @@ export const products = [
     oldPrice: 2399,
     category: "shoes",
     brand: "Gruto",
-    image: "/productImage/shoes/shoes-2.jpg",
+    image: "/productImage/shoes/shoes.jpg",
     images: [
       "/productImage/shoes/shoes-2.jpg",
       "/productImage/shoes/shoes-3.jpg",
@@ -542,7 +542,7 @@ export const products = [
     oldPrice: 3299,
     category: "accessories",
     brand: "Gruto",
-    image: "/productImage/accessories/accessories-3.jpg",
+    image: "/productImage/accessories/accessories.jpg",
     images: [
       "/productImage/accessories/accessories-3.jpg",
       "/productImage/accessories/accessories-1.jpg",

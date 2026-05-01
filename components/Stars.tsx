@@ -1,12 +1,12 @@
 import { Star } from "lucide-react";
 
-const Stars = ({ rating }: { rating: number }) => {
+const Stars = ({ rating, size }: { rating: number; size?: number }) => {
     return (
         <div className='flex items-center gap-0.5'>
             {Array.from({ length: 5 }).map((_, i) => {
                 const filled = i < Math.round(rating);
                 return (
-                    <Star size={14} key={i} className={filled ? "fill-[var(--rating)] text-[var(--rating)]" : "text-border"} />
+                    <Star size={size || 14} key={i} className={filled ? "fill-[var(--rating)] text-[var(--rating)]" : "text-border"} />
                 )
             })}
 

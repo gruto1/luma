@@ -6,6 +6,7 @@ import Trending from "@/components/home/trendingSection/Trending";
 import { getProducts } from "@/lib/api";
 import ChooseUs from "@/components/home/whyChooseUs/ChooseUs";
 import NewsLetterSection from "@/components/home/newsletter/NewsLetterSection";
+import PromoBanner from "@/components/home/promoBanner/PromoBanner";
 
 export default async function Home() {
   const products = await getProducts();
@@ -14,6 +15,7 @@ export default async function Home() {
       <Banner />
       <Category products={products} />
       <Featured/>
+      <PromoBanner/>
       <Trending/>
       <ChooseUs/>
       <NewsLetterSection/>
