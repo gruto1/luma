@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ShoppingBag } from "lucide-react";
-import Stars from "@/components/Stars";
+import Stars from "@/components/ui/Stars";
 // import { Button } from "@/components/ui/button";
 
 

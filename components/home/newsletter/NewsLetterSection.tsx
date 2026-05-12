@@ -1,4 +1,5 @@
 import Container from '@/components/common/Container'
+import Button from '@/components/ui/Button'
 import React from 'react'
 
 const NewsLetterSection = () => {
@@ -19,8 +20,9 @@ const NewsLetterSection = () => {
                             className="h-12 flex-1 rounded-full border border-border bg-background px-5 text-sm outline-none transition-colors focus:border-foreground"
                         />
                         {/* <Button type="submit" size="lg" className="h-12 rounded-full px-7 text-sm">
-                        Subscribe
+                        
                     </Button> */}
+                    <Button type="submit" size="lg" className="h-12 rounded-full px-7 text-sm">Subscribe</Button>
                     </form>
                 </div>
             </Container>

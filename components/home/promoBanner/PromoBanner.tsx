@@ -2,6 +2,7 @@ import Link from "next/link"
 import promo from "@/public/promoImage.jpg"
 import { ArrowRight } from "lucide-react"
 import Container from "@/components/common/Container"
+import Button from "@/components/ui/Button"
 
 const PromoBanner = () => {
     return (
@@ -23,25 +24,26 @@ const PromoBanner = () => {
                                 <span className="w-10 h-px bg-primary-foreground"></span>
                                 Flat 50% off
                             </span>
-                            
+
                             <p className="mt-8 max-w-md text-sm leading-relaxed text-primary-foreground/70">
-                               Our most coveted pieces from the previous season, now available for a limited time at final sale prices.
+                                Our most coveted pieces from the previous season, now available for a limited time at final sale prices.
                             </p>
                             <Link href="/shop" className="mt-8 inline-block">
-                                {/* <Button size="lg" variant="secondary" className="h-12 rounded-full px-7 text-sm">
-                                Shop the Sale <ArrowRight size={16} className="ml-1" />
-                            </Button> */}
+                                <Button size="lg" variant="secondary" className="h-12 rounded-full px-7 text-sm">
+                                    Shop the Sale <ArrowRight size={16} className="ml-1" />
+                                </Button>
                             </Link>
+
                         </div>
                         <div className="relative h-64 md:h-full md:min-h-[360px]">
                             <img
-                            src={promo.src}
-                            alt="Sale collection"
-                            loading="lazy"
-                            width={1600}
-                            height={896}
-                            className="absolute inset-0 h-full w-full object-cover"
-                        />
+                                src={promo.src}
+                                alt="Sale collection"
+                                loading="lazy"
+                                width={1600}
+                                height={896}
+                                className="absolute inset-0 h-full w-full object-cover"
+                            />
                         </div>
                     </div>
                 </div>

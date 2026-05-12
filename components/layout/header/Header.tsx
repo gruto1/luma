@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Dropdown from "@/components/ui/Dropdown";
 import Nav from "@/components/layout/header/Nav";
 import { useState } from "react";
-// import Button from "@/components/ui/button";
+import Button from "@/components/ui/Button";
 
 
 
@@ -45,18 +45,20 @@ const Header = () => {
 
           <div className="inline-flex items-center gap-1">
             {/* <Dropdown /> */}
-            <Link href="/account" className="ml-1 md:ml-4 w-9 h-9 flex items-center justify-center md:inline-flex">
+
+            <Link href="/wishlist" className="ml-1 md:ml-4 w-9 h-9 flex items-center justify-center md:inline-flex">
               <Heart size={20} />
             </Link>
             <Link href="/account" className=" w-9 h-9 flex items-center justify-center md:inline-flex">
               <User size={20} />
-
             </Link>
             <Link href="/cart" className=" w-9 h-9 flex items-center justify-center relative">
-              <ShoppingBag size={20} />
-              <span className="absolute -top-0.5 -right-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-accent text-xs text-accent-foreground">
-                +9
-              </span>
+              {/* <Button variant="ghost" size="icon" aria-label="Cart"> */}
+                <ShoppingBag size={20} />
+                <span className="absolute -top-0.5 -right-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-accent text-xs text-accent-foreground">
+                  +9
+                </span>
+              {/* </Button> */}
             </Link>
 
           </div>
